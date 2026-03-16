@@ -3,12 +3,12 @@
   "name": "Placemark: map data editor",
   "icons": [
     {
-      "src": "/favicon.png",
+      "src": "favicon.png",
       "type": "image/png",
       "sizes": "282x282"
     }
   ],
-  "start_url": "/app?source=pwa",
+  "start_url": "app?source=pwa",
   "background_color": "#3367D6",
   "display": "standalone",
   "scope": "/",
@@ -18,7 +18,7 @@
   "screenshots": [],
   "file_handlers": [
     {
-      "action": "/app",
+      "action": "app",
       "accept": {
         "application/json": [".geojson"]
       }
