@@ -1,1 +1,0 @@
-import{s as t}from"./worker-By5qOR_5.js";const s=t(async function(){const o=await fetch("/zip-lookup.json");if(!o.ok)throw new Error("Could not load ZIP Database");return await o.json()});export{s as g};
